@@ -45,6 +45,8 @@ jobs:
           # The name of the branch on which Frogbot will perform the scan
           JF_GIT_BASE_BRANCH: ${{ matrix.branch }}
 
+          JF_PROJECT: "testsample"
+
           # [Optional, default: "."]
           # Relative path to the root of the project in the Git repository. If left empty (without providing "." yourself as default), a recursive scan is triggered from the root directory of the project.
           # JF_WORKING_DIR: jeecgboot-vue3/
